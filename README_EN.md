@@ -36,18 +36,15 @@ No account is required. Records, photos, gear and preferences stay on the device
 
 ## Promotional video / 软件宣传片
 
-Click the poster to open and play the video. / 点击下面的宣传片海报即可打开播放。
+The player below plays the promo video directly. / 下方播放器可以直接播放宣传片。
 
-<p align="center"><a href="https://raw.githubusercontent.com/xuewei1005/CoffeeNote/main/media/CoffeeNote-2.8.0-promo-vertical-1080x1920.mp4"><img src="screenshots/09-shelf-dark-en.png" width="360" alt="Click to play CoffeeNote promo video / 点击播放宣传片"></a></p>
+<p align="center"><video controls playsinline preload="metadata" width="360" poster="screenshots/09-shelf-dark-en.png" src="https://github.com/user-attachments/assets/098862b7-bd0b-46f5-b9de-311dd7f1b347">CoffeeNote 2.8.0 promo video / CoffeeNote 2.8.0 宣传片</video></p>
 
-[Download video / 备用下载](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-promo-vertical-1080x1920.mp4)
+[备用播放 / Open video](https://github.com/user-attachments/assets/098862b7-bd0b-46f5-b9de-311dd7f1b347) · [Download / 下载](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-promo-vertical-1080x1920.mp4)
 
 ## Screenshots / 功能截图
 
-Screenshots use fictional example records. / 截图使用虚构示例记录。
-
-<details>
-<summary>Expand all screenshots / 展开全部截图</summary>
+All nine previous screenshots are kept and displayed below. / 以下 9 张历史截图全部保留并直接显示。
 
 | Shelf / 豆仓 | Bag OCR / 豆袋识别 | Recipe / 冲煮配方 |
 | --- | --- | --- |
@@ -60,8 +57,6 @@ Screenshots use fictional example records. / 截图使用虚构示例记录。
 | Backup and privacy / 备份隐私 | English settings | English shelf |
 | --- | --- | --- |
 | <img src="screenshots/07-backup-privacy-zh.png" alt="Backup and privacy / 备份与隐私" width="260"> | <img src="screenshots/08-settings-dark-en.png" alt="English settings" width="260"> | <img src="screenshots/09-shelf-dark-en.png" alt="English shelf" width="260"> |
-
-</details>
 
 ## Author / 作者
 
