@@ -38,7 +38,7 @@ No account is required. Records, photos, gear and preferences stay on the device
 
 This is the web playback version derived from the specified `宣传片.mp4`. / 这是由指定 `宣传片.mp4` 生成的网页播放版。
 
-https://github.com/user-attachments/assets/50648936-4493-47a2-b372-6623acdbb0a2
+https://github.com/user-attachments/assets/0ca92bdc-6793-4bc9-8be4-ba548dd88ba2
 
 [备用播放 / Open video](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-promo.mp4) · [Download original promo / 下载原始宣传片](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-promo.mp4)
 
