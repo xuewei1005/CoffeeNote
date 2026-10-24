@@ -1,91 +1,70 @@
-<p align="center"><img src="assets/logo.png" width="80" alt="CoffeeNote"></p>
+<p align="center"><img src="assets/logo.png" width="80" alt="CoffeeNote logo / CoffeeNote 图标"></p>
 
-# CoffeeNote
+# CoffeeNote · Coffee Tasting Notes
 
-Keep the best recipe for every coffee.
+Keep the best recipe for every coffee.  /  记录每一杯咖啡的最佳参数。
 
-**[简体中文](README.md)** · **[Download Android APK](https://github.com/xuewei1005/CoffeeNote/releases/latest)** · **[Changelog](CHANGELOG.md)**
+**[简体中文 / Chinese](README.md)** · **[Download APK / 下载 APK](https://github.com/xuewei1005/CoffeeNote/releases/latest)** · **[Changelog / 更新日志](CHANGELOG.md)**
 
-CoffeeNote is an Android coffee journal for home brewers. Keep your coffee beans, flavor notes, resting status, brewing recipes and gear together, so your next cup starts with a recipe you already know.
+CoffeeNote is an Android coffee journal for home brewers. Keep coffee beans, flavor notes, resting status, brewing recipes and gear together.
+CoffeeNote 是面向家庭咖啡爱好者的 Android 咖啡记录工具，集中管理咖啡豆、风味、养豆状态、冲煮配方和器具。
 
-No account is required. Coffee records, photos, gear and preferences are stored on your device. Coffee-bag text recognition runs on the device.
+No account is required. Records, photos, gear and preferences stay on the device, and coffee-bag text recognition runs locally.
+无需账号；记录、照片、器具和偏好保存在本机，豆袋文字识别也在本地运行。
 
-> This repository distributes APK releases, documentation and example screenshots only. **The application source code is not published and no open-source license is granted.**
+> This repository distributes APK releases, a promotional video, bilingual documentation and example screenshots only. The application source code is not published and no open-source license is granted.
+> 本仓库只发布 APK、宣传视频、双语文档和示例截图，不提供 App 源代码，也不授予开源许可。
 
-## Download and install
+## Download and install / 下载安装
 
-- Current version: **2.8.0**.
-- Requires **Android 8.0 or later**.
-- Download [`CoffeeNote-2.8.0-release.apk`](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-release.apk), approximately 51 MiB.
-- One universal APK includes `arm64-v8a`, `armeabi-v7a`, `x86` and `x86_64`; no separate architecture selection is needed.
+- Current version / 最新版本: **2.8.0**
+- Requires / 系统要求: **Android 8.0 or later**
+- Release APK / 正式版: [CoffeeNote-2.8.0-release.apk](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-release.apk)
+- Install over the previous version without uninstalling or clearing data. / 更新时直接覆盖旧版，不要卸载或清除数据。
+- SHA-256: `65A4B9CDC67732B83C24F191AD4ECFE648821308D982DC5B9198C289EF51FD3A`
 
-Open [Releases](https://github.com/xuewei1005/CoffeeNote/releases), download the release APK and follow the installation prompts on your Android device. You can install an update over the previous version. Export a backup before uninstalling or clearing application data.
+## Features / 功能
 
-SHA-256:
+| Feature / 功能 | English | 中文 |
+| --- | --- | --- |
+| Coffee shelf / 我的豆仓 | Brand, name, multiple origins, processing, roast, dates and complete tasting notes. | 品牌、豆名、多产地、处理法、烘焙度、日期和完整风味。 |
+| Bag OCR / 豆袋识别 | On-device recognition and field classification for Chinese, Japanese, Korean and Latin text. | 本地识别并自动归类中日韩英文字段。 |
+| Brewing recipes / 冲煮配方 | Independent single-select tabs for espresso, pour-over and iced pour-over; espresso defaults to 25 seconds. | 意式、手冲、冰手冲三个固定单选标签，参数独立；意式默认 25 秒。 |
+| Resting status / 养豆状态 | Automatically calculated from roast date, rest days and opened date. | 按烘焙日、养豆天数和开封日自动计算。 |
+| Cards, gear and backup / 卡片、器具与备份 | Long-press to reorder or delete cards, manage gear, and export or import JSON for device transfer. | 长按排序或删除，管理器具，JSON 导出导入换机。 |
+| Themes and languages / 主题与语言 | Light, dark or system theme; Chinese, Japanese, Korean and English. | 浅色、深色、跟随系统；中日韩英。 |
 
-```text
-65A4B9CDC67732B83C24F191AD4ECFE648821308D982DC5B9198C289EF51FD3A
-```
+## Promotional video / 软件宣传片
 
-## Features
+Click the poster to open and play the video. / 点击下面的宣传片海报即可打开播放。
 
-| Feature | What it does |
-| --- | --- |
-| Coffee shelf | Store the brand, coffee name, origin, processing method, roast level, roast/opened dates and tasting notes. Search and filter open, resting or finished coffees. |
-| Coffee-bag recognition | Take a photo or select an image to recognize text and fill fields. Chinese, Japanese, Korean and English/Latin-script models are bundled with the APK; choose a language or use automatic mode. |
-| Field matching | An offline dictionary covers 16 brands and their aliases. Product names, origins, roast levels and flavors are handled separately; packaging disclaimers are filtered out and uncertain fields are left for review. |
-| Brewing recipes | Switch between three single-select tabs: espresso, pour-over and iced pour-over. Each method keeps its own recipe, and only methods with real saved values appear on a card. Espresso defaults to 25 seconds. |
-| Resting suggestions | Suggested resting days depend on roast level, brew method and certain processing methods. The default uses the middle of the suggested range and can be changed manually. |
-| Coffee gear | Organize grinders, brewers and espresso machines, and link them to coffee recipes. |
-| Card management | Long-press to reorder cards or delete a coffee. Deletion requires confirmation and the order is saved between sessions. |
-| Themes and languages | Light, dark or system theme. The interface supports Simplified Chinese, Japanese, Korean and English, following the system language by default. |
-| Local backup | Export a JSON backup with photos, coffee records, gear and preferences. Confirm before merging an import, or remove bag photos separately. |
-| Demo shelf | Explore sample records before adding your own. Exit the read-only demo at any time without replacing personal data. |
+<p align="center"><a href="https://raw.githubusercontent.com/xuewei1005/CoffeeNote/main/media/CoffeeNote-2.8.0-promo-vertical-1080x1920.mp4"><img src="screenshots/09-shelf-dark-en.png" width="360" alt="Click to play CoffeeNote promo video / 点击播放宣传片"></a></p>
 
-## Promotional video
+[Download video / 备用下载](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-promo-vertical-1080x1920.mp4)
 
-[Download / watch the CoffeeNote 2.8.0 vertical promotional video (1080×1920)](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-promo-vertical-1080x1920.mp4)
+## Screenshots / 功能截图
 
-The video and APK are attached to the [v2.8.0 Release](https://github.com/xuewei1005/CoffeeNote/releases/tag/v2.8.0).
+Screenshots use fictional example records. / 截图使用虚构示例记录。
 
-## Screenshots
+<details>
+<summary>Expand all screenshots / 展开全部截图</summary>
 
-These screenshots show the actual app interface rendered at a mobile viewport size with fictional example records. Brand/product combinations illustrate features, not verified retail specifications or endorsements. They contain no personal coffee records, home photos or recognition history. They are not evidence of real-device camera/OCR accuracy testing.
+| Shelf / 豆仓 | Bag OCR / 豆袋识别 | Recipe / 冲煮配方 |
+| --- | --- | --- |
+| <img src="screenshots/01-shelf-light-zh.png" alt="Light shelf / 浅色豆仓" width="260"> | <img src="screenshots/02-bean-detail-zh.png" alt="Bean detail / 豆子详情" width="260"> | <img src="screenshots/03-coffee-profile-zh.png" alt="Coffee profile / 冲煮档案" width="260"> |
 
-<table>
-<tr>
-<td align="center"><b>Coffee shelf</b><br><img src="screenshots/01-shelf-light-zh.png" width="240" alt="Coffee shelf in light mode"></td>
-<td align="center"><b>Brewing recipe</b><br><img src="screenshots/02-bean-detail-zh.png" width="240" alt="Espresso recipe and coffee status"></td>
-<td align="center"><b>Coffee profile</b><br><img src="screenshots/03-coffee-profile-zh.png" width="240" alt="Photo entry, coffee fields and flavor tags"></td>
-</tr>
-<tr>
-<td align="center"><b>Reorder and delete</b><br><img src="screenshots/04-sort-delete-zh.png" width="240" alt="Long-press card management"></td>
-<td align="center"><b>Coffee gear</b><br><img src="screenshots/05-coffee-gear-zh.png" width="240" alt="Grinders, brewers and espresso machines"></td>
-<td align="center"><b>Theme and language</b><br><img src="screenshots/06-settings-dark-zh.png" width="240" alt="Dark theme and language options"></td>
-</tr>
-<tr>
-<td align="center"><b>Backup and data</b><br><img src="screenshots/07-backup-privacy-zh.png" width="240" alt="Local backup and data management"></td>
-<td align="center"><b>English settings</b><br><img src="screenshots/08-settings-dark-en.png" width="240" alt="Settings in English"></td>
-<td align="center"><b>English shelf</b><br><img src="screenshots/09-shelf-dark-en.png" width="240" alt="Dark shelf with English example records"></td>
-</tr>
-</table>
+| Reorder and delete / 排序删除 | Coffee gear / 咖啡器具 | Dark settings / 深色设置 |
+| --- | --- | --- |
+| <img src="screenshots/04-sort-delete-zh.png" alt="Reorder and delete / 排序删除" width="260"> | <img src="screenshots/05-coffee-gear-zh.png" alt="Coffee gear / 咖啡器具" width="260"> | <img src="screenshots/06-settings-dark-zh.png" alt="Dark settings / 深色设置" width="260"> |
 
-## Getting started
+| Backup and privacy / 备份隐私 | English settings | English shelf |
+| --- | --- | --- |
+| <img src="screenshots/07-backup-privacy-zh.png" alt="Backup and privacy / 备份与隐私" width="260"> | <img src="screenshots/08-settings-dark-en.png" alt="English settings" width="260"> | <img src="screenshots/09-shelf-dark-en.png" alt="English shelf" width="260"> |
 
-1. Tap **+** to add coffee, or explore the demo shelf first.
-2. Tap **Photo** and choose the camera or gallery. Review automatically filled fields. Glare, folds, blur or missing text may require another photo or manual entry.
-3. Choose one brew method, keep the defaults or enter your recipe, then save.
-4. Long-press a card in **All** with no search query to drag it. Tap **×** and confirm to delete. Filtered/search results also support long-press deletion.
-5. Tap the cup logo at the top left to change appearance, languages, defaults or export a backup.
+</details>
 
-OCR language and interface language are independent. The brand dictionary matches readable text rather than guessing a brand from a product name. Manually entered values are preserved. Resting-day suggestions are a starting point for taste; adjust them for your beans and preferences.
-
-## Data
-
-There is no account or cloud-sync service. JSON backups include device records and photos; transfer and import the backup yourself when changing devices. An import keeps existing records with matching IDs and restores preferences from the backup. Opening the author's GitHub link launches an external browser.
-
-## Author and feedback
+## Author / 作者
 
 **曹好远 (Cao Haoyuan)** · GitHub: [@xuewei1005](https://github.com/xuewei1005)
 
-Please report issues or suggestions through [Issues](https://github.com/xuewei1005/CoffeeNote/issues), including the app version, phone model and reproduction steps. Remove personal information from attached images first.
+Feedback / 问题反馈: please open an Issue in this repository. / 请在本仓库提交 Issue。
