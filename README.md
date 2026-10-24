@@ -33,18 +33,15 @@ This repository distributes APK releases, a promotional video, bilingual documen
 
 ## 软件宣传片 / Promotional video
 
-点击下面的宣传片海报即可打开播放。 / Click the poster below to open and play the video.
+下方播放器可以直接播放宣传片。 / Use the player below to play the promo video directly.
 
-<p align="center"><a href="https://raw.githubusercontent.com/xuewei1005/CoffeeNote/main/media/CoffeeNote-2.8.0-promo-vertical-1080x1920.mp4"><img src="screenshots/01-shelf-light-zh.png" width="360" alt="点击播放 CoffeeNote 宣传片 / Click to play the CoffeeNote promo video"></a></p>
+<p align="center"><video controls playsinline preload="metadata" width="360" poster="screenshots/01-shelf-light-zh.png" src="https://github.com/user-attachments/assets/098862b7-bd0b-46f5-b9de-311dd7f1b347">CoffeeNote 2.8.0 promo video / CoffeeNote 2.8.0 宣传片</video></p>
 
-[备用下载 / Download video](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-promo-vertical-1080x1920.mp4)
+[备用播放 / Open video](https://github.com/user-attachments/assets/098862b7-bd0b-46f5-b9de-311dd7f1b347) · [下载 / Download](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-promo-vertical-1080x1920.mp4)
 
 ## 功能截图 / Feature screenshots
 
-以下截图使用虚构示例记录。 / These screenshots use fictional example records.
-
-<details>
-<summary>展开全部功能截图 / Expand all feature screenshots</summary>
+以下 9 张截图全部保留并直接显示。 / All nine previous screenshots are kept and displayed below.
 
 | 我的豆仓 / Shelf | 豆袋识别 / Bag OCR | 冲煮配方 / Recipe |
 | --- | --- | --- |
@@ -57,8 +54,6 @@ This repository distributes APK releases, a promotional video, bilingual documen
 | 隐私备份 / Privacy backup | English settings | English shelf |
 | --- | --- | --- |
 | <img src="screenshots/07-backup-privacy-zh.png" alt="备份与隐私 / Backup and privacy" width="260"> | <img src="screenshots/08-settings-dark-en.png" alt="English settings" width="260"> | <img src="screenshots/09-shelf-dark-en.png" alt="English shelf" width="260"> |
-
-</details>
 
 ## 关于 / About
 
