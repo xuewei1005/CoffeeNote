@@ -33,11 +33,11 @@ This repository distributes APK releases, a promotional video, bilingual documen
 
 ## 软件宣传片 / Promotional video
 
-下方播放器可以直接播放宣传片。 / Use the player below to play the promo video directly.
+下面是你指定的 `宣传片.mp4` 播放版。 / This is the web playback version derived from the specified `宣传片.mp4`.
 
-<p align="center"><video controls playsinline preload="metadata" width="360" poster="screenshots/01-shelf-light-zh.png" src="https://github.com/user-attachments/assets/098862b7-bd0b-46f5-b9de-311dd7f1b347">CoffeeNote 2.8.0 promo video / CoffeeNote 2.8.0 宣传片</video></p>
+https://github.com/user-attachments/assets/50648936-4493-47a2-b372-6623acdbb0a2
 
-[备用播放 / Open video](https://github.com/user-attachments/assets/098862b7-bd0b-46f5-b9de-311dd7f1b347) · [下载 / Download](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-promo-vertical-1080x1920.mp4)
+[备用播放 / Open video](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-promo.mp4) · [下载原始宣传片 / Download original promo](https://github.com/xuewei1005/CoffeeNote/releases/download/v2.8.0/CoffeeNote-2.8.0-promo.mp4)
 
 ## 功能截图 / Feature screenshots
 
